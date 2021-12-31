@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    android:weightSum="10">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:background="@drawable/zzbuttoncancel"
+            android:textColor="#FFF9E3"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/mainlogin" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="ID         :"
+                android:textColor="#004a55"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:hint="아이디를 입력하세요"
+                android:id="@+id/idText"
+                android:textColor="#004a55"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="CHECK"
+                android:textSize="15dp"
+                android:textColor="#FFF9E3"
+                android:background="@drawable/edge_edit"
+                android:id="@+id/validatebutton"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="PW       :"
+                android:textColor="#004a55"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:hint="비밀번호를 입력하세요."
+                android:id="@+id/passwordText"
+                android:textColor="#004a55"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="NAME :"
+                android:textColor="#004a55"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:hint="이름을 입력하세요."
+                android:id="@+id/nameText"
+                android:textColor="#004a55"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="AGE     :"
+                android:textColor="#004a55"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ageText"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:hint="나이를 입력하세요."
+                android:textColor="#004a55"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="60dp">
+
+        <Button
+            android:id="@+id/registerbutton"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:background="@drawable/edge_edit"
+            android:text="가입"
+            android:textColor="#FFF9E3"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

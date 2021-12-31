@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false"
+        android:drawable="@drawable/zbuttoncancel">
+
+        <shape android:shape="rectangle">
+
+        </shape>
+
+    </item>
+    <item android:state_pressed="true"
+        android:drawable="@drawable/zbuttoncancell">
+
+        <shape android:shape="rectangle">
+
+        </shape>
+
+    </item>
+</selector>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/button_background"
+    android:id="@+id/aaaa"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PicturecutomActivity">
+    <ImageView
+        android:id="@+id/imageViewResult"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:padding="2dp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textColor="#212121" />
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnListen"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/zbuttonsound"
+            android:scaleType="fitCenter" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/zbuttoncancel"
+            android:scaleType="fitCenter"
+            android:textColor="#212121" />
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

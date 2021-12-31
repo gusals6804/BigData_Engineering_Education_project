@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zmenu5"
+    tools:context=".MenuActivity">
+
+       <com.ssomai.android.scalablelayout.ScalableLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           app:scale_base_height="660"
+           android:orientation="vertical"
+           app:scale_base_width="450">
+
+        <Button
+            android:id="@+id/btnUserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/zbuttonuser2"/>
+
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/zbuttoncamera"
+            app:scale_height="100"
+            app:scale_width="110"
+            app:scale_left="80"
+            app:scale_top="330" />
+        <Button
+            android:id="@+id/btnChatbot"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/zbuttonchatting"
+            app:scale_height="103"
+            app:scale_width="80"
+            app:scale_left="320"
+            app:scale_top="200" />
+
+        <Button
+            android:id="@+id/btnEnglishPuzzle"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/zbuttonabc"
+            app:scale_height="100"
+            app:scale_width="100"
+            app:scale_left="300"
+            app:scale_top="405" />
+
+        <Button
+            android:id="@+id/btnCardGame"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:scale_height="95"
+            app:scale_width="85"
+            app:scale_left="30"
+            app:scale_top="165"
+            android:background="@drawable/zbuttonox"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userid"
+            android:visibility="invisible"/>
+       </com.ssomai.android.scalablelayout.ScalableLayout>
+
+    <Button
+        android:id="@+id/btnAlphabetPuzzle"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/zbuttonalbum" />
+
+    <Button
+        android:id="@+id/btnMain"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:background="@drawable/exit"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="end|bottom" />
+
+
+</FrameLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "472155595468",
+    "firebase_url": "https://gusals-4d787.firebaseio.com",
+    "project_id": "gusals-4d787",
+    "storage_bucket": "gusals-4d787.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472155595468:android:b0f81bd03eb19fa8",
+        "android_client_info": {
+          "package_name": "android.example.com.tflitecamerademo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472155595468-iufan91h8rl5u7ghf5j3fa2ns03i091e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgOG6LGofPDl9E5H9GMAy_K6PjCBd1pOQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
